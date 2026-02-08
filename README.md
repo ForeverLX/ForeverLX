@@ -1,16 +1,30 @@
-## Hi there 👋
+# ForeverLX — Offensive Security (Red Team / Vulnerability Research)
 
-<!--
-**ForeverLX/ForeverLX** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I build offense-led, portfolio-grade work: exploit-focused writeups, Active Directory tradecraft, and a hardened daily-driver workstation with reproducible documentation.
 
-Here are some ideas to get you started:
+## Start here (60 seconds)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- **Security Portfolio** — curated writeups and evidence: [security-portfolio](https://github.com/ForeverLX/security-portfolio)
+- **ACLGuard** — offense-led AD permissions/risk discovery tool: [ACLGuard](https://github.com/ForeverLX/ACLGuard-Active-Directory-Permission-Auditor)
+- **Offsec Workstation** — Arch + Sway setup with auditable, reproducible changes: [offsec-workstation](https://github.com/ForeverLX/offsec-workstation)
+
+## What I optimize for
+
+- **Disciplined methodology**: repeatable steps, scoped assumptions, clear artifacts
+- **Practical impact**: demonstrate risk + provide remediation, not just “got a shell”
+- **Clean reporting**: readable writeups, consistent structure, evidence-first
+
+## Current focus
+
+- Expanding **enterprise-style AD attack chain** material (tradecraft + reporting quality)
+- Normalizing writeup structure for consistent GitHub rendering and reviewer speed
+- Hardening + documenting my workstation as a reproducible “operator platform”
+
+## Positioning
+
+- **ACLGuard**: built for **red team operators** to quickly surface **AD permission abuse paths** (purple-team aware, offense-led)
+
+## Contact
+
+- Email: [Darrius.G@proton.me](mailto:Darrius.G@proton.me)
+- LinkedIn: [Darrius Grate](https://www.linkedin.com/in/darrius-grate/)
