@@ -1,96 +1,66 @@
-# Darrius Grate | Offensive Security Research
+# Hey, I'm Darrius (ForeverLX) 👋
 
-Security researcher focused on **Offensive Security, Red Team Operations, and Active Directory exploitation**.
+**Offensive Security Engineer • Red Team Infrastructure Architect • Founder @ Azrael Security**
 
-My work centers on understanding how real-world adversaries move through enterprise environments and translating that knowledge into **practical tooling, attack-path analysis, and defensive visibility.**
+I design and build lean, production-grade offensive security infrastructure so red teams and penetration testers can focus on hands-on-keyboard operations instead of babysitting tooling.
 
----
-
-## Azrael Security™
-
-Azrael Security is my personal research initiative focused on building tools and infrastructure for:
-
-• Active Directory attack surface analysis  
-• adversary simulation and red team infrastructure  
-• purple team detection validation  
-• security research and operator tooling  
-
-The goal is to develop **practical offensive security tooling that improves both attacker realism and defensive insight.**
+- 🔭 Currently building: **Azrael Security™** – professional offensive security subcontracting for boutique pentest and red team firms.
+- 🛠 Creator of **NightForge** – autonomous purple-team infrastructure that runs full OODA loops on constrained 8GB edge nodes.
+- 🧩 Author of **ACLGuard** – Active Directory and permissions auditing for security practitioners.
+- 🌐 Focus areas: red team infra, C2 design, detection engineering, security posture reviews, and professional pentesting workflows.
+- 📍 Based in Las Vegas, Nevada, working fully remote.
 
 ---
 
-## Core Projects
+## 🔒 What I Work On
 
-### NightForge (In Development)
+### NightForge – Offensive/Purple Team Infrastructure
+Infrastructure-as-code and automation for:
+- Edge nodes (Podman-based) running Suricata, Nuclei, and Mythic C2
+- WireGuard-connected mesh backends
+- Opinionated, repeatable deployment for red/blue/purple-team exercises
 
-Red team infrastructure platform designed for **Adversary Emulation and Detection Research**.
+> Goal: let senior operators show up with a playbook, not a bash history.
 
-NightForge focuses on:
+### ACLGuard – AD & Access Path Auditor
+- Enumerates AD/permissions to surface risky access paths
+- Helps connect technical misconfigurations to business impact and abuse paths
+- Built to be understandable to both operators and defenders
 
-- reproducible adversary simulation
-- attack-path testing
-- detection engineering validation
-- operator infrastructure workflows
-
----
-
-### ACLGuard
-
-Active Directory permission and attack-path analysis tool written in **C**.
-
-ACLGuard analyzes LDAP data to identify **high-risk permission relationships and privilege escalation paths** within Windows AD environments.
-
-Focus areas:
-
-- AD security primitives  
-- permission relationship analysis  
-- automated reconnaissance for red team operations  
-
-Repository:
-github.com/ForeverLX/ACLGuard-Active-Directory-Permission-Auditor
+### Offsec Workstation & Lab Tooling
+- Hardened offsec workstation configs
+- Repeatable lab environments for red team infrastructure testing
+- Focus on “professional-grade, reproducible setups” instead of one-off CTF rigs
 
 ---
 
-### Offsec Workstation
+## 🧠 Technical Focus
 
-A hardened **Arch Linux-based offensive security environment** designed for red team operations and security research.
-
-Focus areas:
-
-- performance-optimized operator environment
-- containerized tooling
-- minimal attack surface
-- reproducible security workflows
+- **Offensive Security:** red teaming, infrastructure, C2, phishing infrastructure, purple teaming
+- **Defensive / Visibility:** Suricata, detection engineering, log pipelines
+- **Platforms:** Linux-first (Arch/Ubuntu), cloud (AWS/GCP/OCI), containerization (Podman/Docker)
+- **Frameworks & Standards:** MITRE ATT&CK, OODA, CTEM/CEM, basic ERM and risk quantification
 
 ---
 
-## Technical Focus Areas
+## 📚 Professional Offensive Security
 
-- Offensive Security
-- Active Directory Security
-- Red Team Operations
-- Kerberos Abuse & ADCS Exploitation
-- Command & Control Infrastructure
-- Adversary Simulation
-- Security Research
-- Detection Engineering
+Most hackers can pop a shell. Fewer can:
+- Map findings to **revenue impact** and **enterprise risk**
+- Produce reports that senior leadership actually reads and acts on
+- Build **reliable, repeatable** infrastructure for continuous validation
 
----
-
-## Certifications
-
-Active Directory Red Team Specialist (AD-RTS)  
-Certified Offensive Security Junior (COSJ)
+I try to live in that gap:
+- Building tools that support **continuous exposure validation**
+- Writing and teaching about **professional pentesting**: reporting, client communication, and measurable risk reduction
 
 ---
 
-## Connect
+## 🔗 Connect
 
-LinkedIn  
-[Darrius Grate](https://www.linkedin.com/in/darrius-grate/)
+- 🌐 Website / Portfolio: [ForeverLX](https://darriusgrate.vercel.app/)
+- 🧷 LinkedIn: [linkedin.com/in/darrius-grate](https://www.linkedin.com/in/darrius-grate/)
+- 💼 Azrael Security: Coming soon – red team infrastructure subcontracting
+- 📧 Email: [Darrius.G@proton.me](mailto:darrius.g@proton.me)
 
-Personal Site  
-[ForeverLX](https://darriusgrate.vercel.app/)
-
-Email
-[Darrius.G@proton.me](mailto:Darrius.G@proton.me)
+If you’re a red team lead or senior pentester who wants to offload infrastructure and reporting overhead, let’s talk.
