@@ -1,30 +1,96 @@
-# ForeverLX — Offensive Security (Red Team / Vulnerability Research)
+# Darrius Grate | Offensive Security Research
 
-I build offense-led, portfolio-grade work: exploit-focused writeups, Active Directory tradecraft, and a hardened daily-driver workstation with reproducible documentation.
+Security researcher focused on **Offensive Security, Red Team Operations, and Active Directory exploitation**.
 
-## Start here (60 seconds)
+My work centers on understanding how real-world adversaries move through enterprise environments and translating that knowledge into **practical tooling, attack-path analysis, and defensive visibility.**
 
-- **Security Portfolio** — curated writeups and evidence: [security-portfolio](https://github.com/ForeverLX/security-portfolio)
-- **ACLGuard** — offense-led AD permissions/risk discovery tool: [ACLGuard](https://github.com/ForeverLX/ACLGuard-Active-Directory-Permission-Auditor)
-- **Offsec Workstation** — Arch + Sway setup with auditable, reproducible changes: [offsec-workstation](https://github.com/ForeverLX/offsec-workstation)
+---
 
-## What I optimize for
+## Azrael Security™
 
-- **Disciplined methodology**: repeatable steps, scoped assumptions, clear artifacts
-- **Practical impact**: demonstrate risk + provide remediation, not just “got a shell”
-- **Clean reporting**: readable writeups, consistent structure, evidence-first
+Azrael Security is my personal research initiative focused on building tools and infrastructure for:
 
-## Current focus
+• Active Directory attack surface analysis  
+• adversary simulation and red team infrastructure  
+• purple team detection validation  
+• security research and operator tooling  
 
-- Expanding **enterprise-style AD attack chain** material (tradecraft + reporting quality)
-- Normalizing writeup structure for consistent GitHub rendering and reviewer speed
-- Hardening + documenting my workstation as a reproducible “operator platform”
+The goal is to develop **practical offensive security tooling that improves both attacker realism and defensive insight.**
 
-## Positioning
+---
 
-- **ACLGuard**: built for **red team operators** to quickly surface **AD permission abuse paths** (purple-team aware, offense-led)
+## Core Projects
 
-## Contact
+### NightForge (In Development)
 
-- Email: [Darrius.G@proton.me](mailto:Darrius.G@proton.me)
-- LinkedIn: [Darrius Grate](https://www.linkedin.com/in/darrius-grate/)
+Red team infrastructure platform designed for **Adversary Emulation and Detection Research**.
+
+NightForge focuses on:
+
+- reproducible adversary simulation
+- attack-path testing
+- detection engineering validation
+- operator infrastructure workflows
+
+---
+
+### ACLGuard
+
+Active Directory permission and attack-path analysis tool written in **C**.
+
+ACLGuard analyzes LDAP data to identify **high-risk permission relationships and privilege escalation paths** within Windows AD environments.
+
+Focus areas:
+
+- AD security primitives  
+- permission relationship analysis  
+- automated reconnaissance for red team operations  
+
+Repository:
+github.com/ForeverLX/ACLGuard-Active-Directory-Permission-Auditor
+
+---
+
+### Offsec Workstation
+
+A hardened **Arch Linux-based offensive security environment** designed for red team operations and security research.
+
+Focus areas:
+
+- performance-optimized operator environment
+- containerized tooling
+- minimal attack surface
+- reproducible security workflows
+
+---
+
+## Technical Focus Areas
+
+- Offensive Security
+- Active Directory Security
+- Red Team Operations
+- Kerberos Abuse & ADCS Exploitation
+- Command & Control Infrastructure
+- Adversary Simulation
+- Security Research
+- Detection Engineering
+
+---
+
+## Certifications
+
+Active Directory Red Team Specialist (AD-RTS)  
+Certified Offensive Security Junior (COSJ)
+
+---
+
+## Connect
+
+LinkedIn  
+[Darrius Grate](https://www.linkedin.com/in/darrius-grate/)
+
+Personal Site  
+[ForeverLX](https://darriusgrate.vercel.app/)
+
+Email
+[Darrius.G@proton.me](mailto:Darrius.G@proton.me)
