@@ -1,66 +1,53 @@
 # Hey, I'm Darrius (ForeverLX) 👋
 
-**Offensive Security Engineer • Red Team Infrastructure Architect • Founder @ Azrael Security**
+**Red Team Infrastructure Engineer • Vulnerability Researcher • Founder @ Azrael Security**
 
-I design and build lean, production-grade offensive security infrastructure so red teams and penetration testers can focus on hands-on-keyboard operations instead of babysitting tooling.
+I build production-grade offensive security infrastructure and conduct systems-level security research. My focus is on the intersection of low-level Linux behavior and real offensive infrastructure — understanding exactly how isolation boundaries work, where they fail, and what that means for red team operations.
 
-- 🔭 Currently building: **Azrael Security™** – professional offensive security subcontracting for boutique pentest and red team firms.
-- 🛠 Creator of **NightForge** – autonomous purple-team infrastructure that runs full OODA loops on constrained 8GB edge nodes.
-- 🧩 Author of **ACLGuard** – Active Directory and permissions auditing for security practitioners.
-- 🌐 Focus areas: red team infra, C2 design, detection engineering, security posture reviews, and professional pentesting workflows.
-- 📍 Based in Las Vegas, Nevada, working fully remote.
+- 🏗 Building: **[Veil](https://github.com/ForeverLX/veil)** — Azrael Security's homelab infrastructure. Mythic C2 on declarative NixOS, WireGuard mesh, Cowrie honeypot, Suricata IDS, rootless Podman on a Chromebook edge node.
+- 🔬 Researching: **Container boundary weaknesses** — filesystem/mount abuse, namespace privilege boundaries, `/proc` visibility leaks, and how these primitives apply to offensive infrastructure.
+- 🖥 Operating from: **[NightForge](https://github.com/ForeverLX/nightforge)** — reproducible Arch Linux operator workstation with Niri compositor, operator terminal framework, and containerized offensive tooling.
+- 📍 Based in Phoenix, Arizona — working fully remote.
 
 ---
 
 ## 🔒 What I Work On
 
-### NightForge – Offensive/Purple Team Infrastructure
-Infrastructure-as-code and automation for:
-- Edge nodes (Podman-based) running Suricata, Nuclei, and Mythic C2
-- WireGuard-connected mesh backends
-- Opinionated, repeatable deployment for red/blue/purple-team exercises
+### Veil — Azrael Security Infrastructure
+A three-node offensive security homelab built for real adversary emulation and red team infrastructure research:
+- **Cerberus** — Chromebook edge node running Cowrie honeypot, Suricata IDS, Pi-hole, Gitea, Vaultwarden — all rootless Podman Quadlets
+- **Tairn** — NixOS 24.11 declarative VM running Mythic C2 with Poseidon agent, WireGuard-only access
+- **NightForge** — Arch Linux operator workstation, primary development and ops environment
+- WireGuard hub-and-spoke mesh across all nodes — no node reachable from WAN
 
-> Goal: let senior operators show up with a playbook, not a bash history.
+### Security Research
+Documented research at the intersection of Linux systems internals and offensive security:
+- Container boundary analysis (Podman rootless, Docker, namespace isolation)
+- Linux kernel privilege escalation primitives (long-term track)
+- Reverse engineering methodology — documented challenge series building toward binary analysis and CVE research
+- AD attack path documentation from CRTA and CRT-ID coursework (CyberWarfare Labs)
 
-### ACLGuard – AD & Access Path Auditor
-- Enumerates AD/permissions to surface risky access paths
-- Helps connect technical misconfigurations to business impact and abuse paths
-- Built to be understandable to both operators and defenders
-
-### Offsec Workstation & Lab Tooling
-- Hardened offsec workstation configs
-- Repeatable lab environments for red team infrastructure testing
-- Focus on “professional-grade, reproducible setups” instead of one-off CTF rigs
+### NightForge — Operator Workstation
+Reproducible offensive security workstation built as a portfolio artifact:
+- Niri Wayland compositor, operator terminal framework with VPN/engagement/MITRE context
+- Rootless Podman profiles for isolated AD, RE, and web workflows
+- MITRE ATT&CK technique logging built into shell
 
 ---
 
 ## 🧠 Technical Focus
 
-- **Offensive Security:** red teaming, infrastructure, C2, phishing infrastructure, purple teaming
-- **Defensive / Visibility:** Suricata, detection engineering, log pipelines
-- **Platforms:** Linux-first (Arch/Ubuntu), cloud (AWS/GCP/OCI), containerization (Podman/Docker)
-- **Frameworks & Standards:** MITRE ATT&CK, OODA, CTEM/CEM, basic ERM and risk quantification
-
----
-
-## 📚 Professional Offensive Security
-
-Most hackers can pop a shell. Fewer can:
-- Map findings to **revenue impact** and **enterprise risk**
-- Produce reports that senior leadership actually reads and acts on
-- Build **reliable, repeatable** infrastructure for continuous validation
-
-I try to live in that gap:
-- Building tools that support **continuous exposure validation**
-- Writing and teaching about **professional pentesting**: reporting, client communication, and measurable risk reduction
+- **Offensive Security:** red team infrastructure, C2 deployment and hardening, adversary emulation
+- **Vulnerability Research:** container boundaries, Linux namespace/capability abuse, kernel exploitation (building toward)
+- **Systems:** Linux-first (Arch, NixOS), kernel internals, containers (Podman/Docker), WireGuard
+- **Reverse Engineering:** ELF analysis, GDB/GEF, static + dynamic analysis methodology
+- **Frameworks:** MITRE ATT&CK, declarative infrastructure (NixOS), rootless container patterns
 
 ---
 
 ## 🔗 Connect
 
-- 🌐 Website / Portfolio: [ForeverLX](https://darriusgrate.vercel.app/)
+- 🌐 Website: [darriusgrate.vercel.app](https://darriusgrate.vercel.app/)
 - 🧷 LinkedIn: [linkedin.com/in/darrius-grate](https://www.linkedin.com/in/darrius-grate/)
-- 💼 Azrael Security: Coming soon – red team infrastructure subcontracting
 - 📧 Email: [Darrius.G@proton.me](mailto:darrius.g@proton.me)
-
-If you’re a red team lead or senior pentester who wants to offload infrastructure and reporting overhead, let’s talk.
+- 💼 Azrael Security: Red team infrastructure engineering and offensive security research
