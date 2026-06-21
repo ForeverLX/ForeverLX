@@ -10,8 +10,8 @@ I build the tools that make offensive security operations faster, stealthier, an
 ```
 ┌─────────────────────────────────────────────────────────────┐
 │                                                             │
-│   🛡️ Red Team Infrastructure     (primary)                 │
-│   🤖 Agentic Security Architecture (secondary)              │
+│   🛡️ Red Team Infrastructure     (primary)                  │
+│   🤖 Active Directory Security (secondary)                  │
 │   🔬 RE & Threat Intelligence     (sustaining)              │
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
