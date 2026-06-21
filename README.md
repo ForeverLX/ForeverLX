@@ -70,7 +70,7 @@ C-based Active Directory permission analyzer identifying DACL misconfigurations 
 
 ## 📊 GitHub Stats
 
-![ForeverLX's GitHub stats](https://github-readme-stats.vercel.app/api?username=ForeverLX&show_icons=true&theme=dark&hide_border=true)
+![CR1MS0N-Operator's GitHub stats](https://github-readme-stats.vercel.app/api?username=CR1MS0N-Operator&show_icons=true&theme=dark&hide_border=true)
 
 ---
 
